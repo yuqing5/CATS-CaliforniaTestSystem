@@ -19,7 +19,7 @@ using Ipopt
 
 # User input
 #-----------
-save_to_JSON = false
+save_to_JSON = true
 
 # Specify solver
 #----------------
