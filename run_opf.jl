@@ -35,14 +35,14 @@ data = PowerModels.parse_file("MATPOWER/CaliforniaTestSystem.m")
 ## Solve ##
 ###########
 
-solution = PowerModels.solve_opf(data, ACPPowerModel, solver)
+solution = PowerModels.solve_opf(data, DCPPowerModel, solver)
 
 # Save solution dictionary to JSON
 if save_to_JSON == true
     stringdata = JSON.json(solution)
     
     # write the file with the stringdata variable information
-    open("pf_solution_ac.json", "w") do f
+    open("pf_solution.json", "w") do f
         write(f, stringdata)
     end
 end
