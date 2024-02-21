@@ -1,7 +1,5 @@
 import numpy as np
 import cvxpy as cp
-import random
-import csv
 from datetime import datetime
 import time
 import sys
@@ -9,31 +7,33 @@ import pandas as pd
 import json
 import collections
 import scipy.io
-import mpu
+from scipy.sparse import csr_matrix 
+
 type_to_emission = collections.defaultdict(float)
-type_to_emission['Conventional Hydroelectric'] = 0
-type_to_emission['Hydroelectric Pumped Storage'] = 0
-type_to_emission['Petroleum Liquids'] = 1808.5
-type_to_emission['Natural Gas Internal Combustion Engine'] = 1255
-type_to_emission['Natural Gas Fired Combined Cycle'] = 1255
-type_to_emission['Natural Gas Steam Turbine'] = 1255
-type_to_emission['Natural Gas Fired Combustion Turbine'] = 1255
-type_to_emission['Nuclear'] = 0
-type_to_emission['Geothermal'] = 166.7
-type_to_emission['Onshore Wind Turbine'] = 0
-type_to_emission['Other Waste Biomass'] = 76
-type_to_emission['Wood/Wood Waste Biomass'] = 76
-type_to_emission['Landfill Gas'] = 1255
-type_to_emission['Solar Photovoltaic'] = 145
-type_to_emission['Solar Thermal without Energy Storage'] = 145
-type_to_emission['Conventional Steam Coal'] = 1149
-type_to_emission['Other Gases'] = 1255
-type_to_emission['Batteries'] = 0
-type_to_emission['Petroleum Coke'] = 1808.5
-type_to_emission['Municipal Solid Waste'] = 884
-type_to_emission['Other Natural Gas'] = 1255
-type_to_emission['IMPORT'] = 884
-type_to_emission['Synchronous Condenser'] = 884
+type_to_emission['Conventional Hydroelectric'] = 0.001
+type_to_emission['Hydroelectric Pumped Storage'] = 0.001
+type_to_emission['Petroleum Liquids'] = 1.162800
+type_to_emission['Natural Gas Internal Combustion Engine'] = 0.646560
+type_to_emission['Natural Gas Fired Combined Cycle'] = 0.646560
+type_to_emission['Natural Gas Steam Turbine'] = 0.646560
+type_to_emission['Natural Gas Fired Combustion Turbine'] = 0.646560
+type_to_emission['Nuclear'] = 0.001
+type_to_emission['Geothermal'] = 0.026307
+type_to_emission['Onshore Wind Turbine'] = 0.001
+type_to_emission['Other Waste Biomass'] = 0.01
+type_to_emission['Wood/Wood Waste Biomass'] = 0.01
+type_to_emission['Landfill Gas'] = 0.646560
+type_to_emission['Solar Photovoltaic'] = 0.001
+type_to_emission['Solar Thermal without Energy Storage'] = 0.001
+type_to_emission['Conventional Steam Coal'] = 4.668269
+type_to_emission['Other Gases'] = 0.646560
+type_to_emission['Batteries'] = 0.001
+type_to_emission['Petroleum Coke'] = 1.162800
+type_to_emission['Municipal Solid Waste'] = 0.834394
+type_to_emission['Other Natural Gas'] = 0.604
+type_to_emission['All Other'] = 0.1
+type_to_emission['IMPORT'] = 0.5
+#type_to_emission['Synchronous Condenser'] = 884
 np.random.seed(29)
 
 def recurse_son(father, Spanning_tree, ratio_now, visited, gen_line_prop_mat):
@@ -185,24 +185,25 @@ for i in range(num_buses):
     #print("Node ", i)
     #print("Total power outflow and demand:", total_power)
     #print("Total line flow injections at this node:", total_inflow)
-    bus_prop_vec[i] = load[i] / total_power
-    for j in range(num_lines):
-        if A_mat_directed[j][i] == -1:
-            line_prop_mat[j, i] = np.abs(line_flow[j]) / total_power
+    if total_power > 0.000001:
+        bus_prop_vec[i] = load[i] / total_power
+        for j in range(num_lines):
+            if A_mat_directed[j][i] == -1:
+                line_prop_mat[j, i] = np.abs(line_flow[j]) / total_power
 
 print("FINISH!!!!!!!!!")
 #print("Directed incidence matrix", A_mat_directed, flush=True)
 #print("Line proportion matrix", line_prop_mat)
 #print("Bus proportion vector", bus_prop_vec.T)
 
-Gen_prop_mat=np.zeros((num_gen, num_lines, num_buses), dtype=float)
+#Gen_prop_mat=csr_matrix((num_gen, num_lines, num_buses), dtype=np.float16)
 Gen_spanning_tree_all=np.zeros((num_buses, num_gen))
 
 for i in range(num_gen):
     #print("Generator", Gen_node[i])
     #print("Generation Value", x[i])
     Gen_spanning_tree = np.zeros((num_buses, 1), dtype=float)
-    current_Gen_prop_mat = np.zeros((num_lines, num_buses), dtype=float)
+    current_Gen_prop_mat = np.zeros((num_lines, num_buses), dtype=np.float16)
     visited = np.zeros(num_buses, dtype=bool)
     child = True
     current_ratio = 1.0
@@ -212,7 +213,7 @@ for i in range(num_gen):
     #print("Generator's contribution to each load", np.round(Gen_spanning_tree, 3).T)
     #print("Sum of generator's output", np.sum(Gen_spanning_tree))
     #print("Generator's contribution to each line:", current_Gen_prop_mat)
-    Gen_prop_mat[i]=current_Gen_prop_mat
+    #Gen_prop_mat[i, :, :]=current_Gen_prop_mat
     Gen_spanning_tree_all[:, i] = Gen_spanning_tree.reshape(-1, )
 
 load_vec = np.zeros((num_buses, 1), dtype=float)

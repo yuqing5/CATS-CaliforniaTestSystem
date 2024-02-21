@@ -2,13 +2,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/WISPO-POP/CATS-CaliforniaTestSystem">
-    <img src="logo.png" alt="Logo" width="300" height="300">
+    <img src="temp_img.png" alt="Logo" width="600" height="300">
   </a>
 
 <h3 align="center">CATS - California Test System</h3>
 
   <p align="center">
-    A geographically-accurate synthetic grid in California.
+    Carbon reduction load distribution using LME.
     <!-- <br /> -->
     <!-- <a href="https://github.com/WISPO-POP/CATS-CaliforniaTestSystem"><strong>View Documentation »</strong></a> -->
     <!-- <br /> -->
