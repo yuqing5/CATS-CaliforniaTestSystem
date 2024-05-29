@@ -1,0 +1,68 @@
+state,county,carb_intensity
+CA,Alameda County,0.478113202
+CA,Alpine County,0.082122116
+CA,Amador County,0.082122116
+CA,Butte County,0.744697271
+CA,Calaveras County,0.082249495
+CA,Clark County,0
+CA,Colusa County,1.2310353
+CA,Contra Costa County,0.714443193
+CA,El Dorado County,0.739275978
+CA,Esmeralda County,0.1579203
+CA,Fresno County,0.452899288
+CA,Glenn County,1.2310353
+CA,Humboldt County,1.157815242
+CA,Imperial County,0.190381709
+CA,Inyo County,0.1579203
+CA,Jackson County,1.2310353
+CA,Josephine County,0
+CA,Kern County,0.724361951
+CA,Kings County,0.13031957
+CA,Klamath County,0
+CA,La Paz County,0.895160068
+CA,Lake County,0.248106598
+CA,Lassen County,0.363896474
+CA,Los Angeles County,0.910882139
+CA,Madera County,0.304729166
+CA,Maricopa County,0
+CA,Marin County,0.498872918
+CA,Mariposa County,0.625245703
+CA,Mendocino County,0.192509408
+CA,Merced County,0.371303685
+CA,Modoc County,1.2310353
+CA,Mono County,0.1579203
+CA,Monterey County,0.730905914
+CA,Municipio de Mexicali County,0.1579203
+CA,Municipio de Tijuana County,1.2310353
+CA,Napa County,0.881949823
+CA,Nevada County,0.424683773
+CA,Orange County,0.973906017
+CA,Placer County,0.652917617
+CA,Plumas County,0.40975803
+CA,Riverside County,0.945690927
+CA,Sacramento County,1.121140467
+CA,San Benito County,1.0899651
+CA,San Bernardino County,0.982938576
+CA,San Diego County,0.799447076
+CA,San Francisco County,0.305894079
+CA,San Joaquin County,0.52300391
+CA,San Luis Obispo County,0.064611459
+CA,San Mateo County,0.362872096
+CA,Santa Barbara County,0.567475809
+CA,Santa Clara County,0.794977058
+CA,Santa Cruz County,0.224577887
+CA,Shasta County,1.159120326
+CA,Sierra County,0.503169226
+CA,Siskiyou County,1.2310353
+CA,Solano County,0.662410363
+CA,Sonoma County,0.295653608
+CA,Stanislaus County,1.054858277
+CA,Sutter County,0.692272266
+CA,Tehama County,1.2310353
+CA,Trinity County,1.16507807
+CA,Tulare County,0.713994612
+CA,Tuolumne County,0.855266286
+CA,Ventura County,1.080959508
+CA,Yolo County,0.689248457
+CA,Yuba County,0.60978829
+CA,Yuma County,0.308045451
