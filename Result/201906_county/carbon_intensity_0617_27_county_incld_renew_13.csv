@@ -1,67 +1,67 @@
-state,county,carb_intensity
-CA,Alameda County,0.042691914
-CA,Alpine County,0.042262281
-CA,Amador County,0.040918456
-CA,Butte County,0.037181966
-CA,Calaveras County,0.041045195
+state,county,carb_inten_renew
+CA,Alameda County,0.023649125
+CA,Alpine County,0.004878209
+CA,Amador County,0.030669521
+CA,Butte County,0
+CA,Calaveras County,0.027923955
 CA,Clark County,0
 CA,Colusa County,0
-CA,Contra Costa County,0.210720902
-CA,El Dorado County,0.098541692
-CA,Esmeralda County,0.127054963
-CA,Fresno County,0.043821614
-CA,Glenn County,0
-CA,Humboldt County,1.14704013
-CA,Imperial County,0.110147905
-CA,Inyo County,0.129573294
+CA,Contra Costa County,0.0387187
+CA,El Dorado County,0.161612604
+CA,Esmeralda County,0.01630027
+CA,Fresno County,0.037151844
+CA,Glenn County,0.009649995
+CA,Humboldt County,0.0201863
+CA,Imperial County,0.121104049
+CA,Inyo County,0.011259742
 CA,Josephine County,0
-CA,Kern County,0.227172987
-CA,Kings County,0.017804687
+CA,Kern County,0.092764432
+CA,Kings County,0.000560454
 CA,Klamath County,0
-CA,La Paz County,0.313633126
-CA,Lake County,0.08605577
-CA,Lassen County,0.038178675
-CA,Los Angeles County,0.069174724
-CA,Madera County,0.002337696
+CA,La Paz County,3.733902046
+CA,Lake County,0.021276344
+CA,Lassen County,0.001785646
+CA,Los Angeles County,0.025595983
+CA,Madera County,0.000379748
 CA,Maricopa County,0
 CA,Marin County,0
-CA,Mariposa County,0.000123383
-CA,Mendocino County,0
-CA,Merced County,0.158436856
-CA,Modoc County,0.021019549
-CA,Mono County,0.1579203
-CA,Monterey County,0.157260456
-CA,Municipio de Mexicali County,0.1579203
+CA,Mariposa County,0
+CA,Mendocino County,0.023588444
+CA,Merced County,0.037778105
+CA,Modoc County,0
+CA,Mono County,0.01038706
+CA,Monterey County,0.124660674
+CA,Municipio de Mexicali County,0.01740202
 CA,Municipio de Tijuana County,0
-CA,Napa County,0
-CA,Nevada County,0.037763641
-CA,Orange County,0
-CA,Placer County,0.026140956
-CA,Plumas County,0.044682688
-CA,Riverside County,0.0298199
-CA,Sacramento County,0.255741378
-CA,San Benito County,0.030811164
-CA,San Bernardino County,0.019316998
-CA,San Diego County,0.055465105
-CA,San Francisco County,0.044672509
-CA,San Joaquin County,0.116486762
-CA,San Luis Obispo County,0.001037132
-CA,San Mateo County,0.03532862
-CA,Santa Barbara County,0.14428513
-CA,Santa Clara County,0.161341632
-CA,Santa Cruz County,0.032574953
-CA,Shasta County,0.556170678
-CA,Sierra County,0.035524341
+CA,Napa County,0.041841053
+CA,Nevada County,0.00903141
+CA,Orange County,0.002202333
+CA,Placer County,0.026174376
+CA,Plumas County,0
+CA,Riverside County,0.045627937
+CA,Sacramento County,0.067105835
+CA,San Benito County,0.822673664
+CA,San Bernardino County,0.053572152
+CA,San Diego County,0.021048428
+CA,San Francisco County,0
+CA,San Joaquin County,0.044660758
+CA,San Luis Obispo County,0.001641027
+CA,San Mateo County,0.004050018
+CA,Santa Barbara County,0
+CA,Santa Clara County,0.043000496
+CA,Santa Cruz County,0.029029091
+CA,Shasta County,0.039537291
+CA,Sierra County,0
 CA,Siskiyou County,0
-CA,Solano County,0.025078365
-CA,Sonoma County,0.011334554
-CA,Stanislaus County,0.408361235
-CA,Sutter County,0.119247477
-CA,Tehama County,0.908348513
-CA,Trinity County,1.155371761
-CA,Tulare County,0.245757776
-CA,Tuolumne County,0.02645183
-CA,Ventura County,0.488731627
-CA,Yolo County,0.109356792
-CA,Yuba County,0.030049369
-CA,Yuma County,0.538908448
+CA,Solano County,0.030268062
+CA,Sonoma County,0.028192504
+CA,Stanislaus County,0.05513627
+CA,Sutter County,0
+CA,Tehama County,0.019722215
+CA,Trinity County,0.052771909
+CA,Tulare County,0.042927748
+CA,Tuolumne County,0.028759398
+CA,Ventura County,0.009469245
+CA,Yolo County,0
+CA,Yuba County,0
+CA,Yuma County,0.054315763
