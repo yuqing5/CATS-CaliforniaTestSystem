@@ -1,4 +1,4 @@
-country,State,county,carb_intensity_no_renew
+country,State,county,metric tonnes/MWh
 USA,CA,Alameda County,0.900859158
 USA,CA,Alpine County,0.267364385
 USA,CA,Amador County,0.298006492

@@ -1,67 +1,68 @@
-state,county,l_ren
-CA,Alameda County,995.0625356
-CA,Alpine County,16.7134238
-CA,Amador County,29.12897091
-CA,Butte County,125.103096
-CA,Calaveras County,8.76523403
-CA,Clark County,0
-CA,Colusa County,24.18410322
-CA,Contra Costa County,695.3232157
-CA,El Dorado County,38.31006186
-CA,Esmeralda County,3.8369447
-CA,Fresno County,286.4454144
-CA,Glenn County,32.186104
-CA,Humboldt County,53.72567927
-CA,Imperial County,-120.8295578
-CA,Inyo County,68.60247281
-CA,Josephine County,0
-CA,Kern County,312.5926998
-CA,Kings County,72.15789684
-CA,Klamath County,0
-CA,La Paz County,-1.700364022
-CA,Lake County,32.13074944
-CA,Lassen County,39.27858648
-CA,Los Angeles County,4428.612573
-CA,Madera County,62.38438461
-CA,Maricopa County,0
-CA,Marin County,165.4734747
-CA,Mariposa County,7.99813739
-CA,Mendocino County,34.40854519
-CA,Merced County,104.5095288
-CA,Modoc County,14.62354454
-CA,Mono County,-4.461358201
-CA,Monterey County,89.91203768
-CA,Municipio de Mexicali County,4.051728562
-CA,Municipio de Tijuana County,15.8540459
-CA,Napa County,64.46086741
-CA,Nevada County,21.18193286
-CA,Orange County,1499.374979
-CA,Placer County,208.0083278
-CA,Plumas County,22.42213986
-CA,Riverside County,653.1629568
-CA,Sacramento County,507.1506719
-CA,San Benito County,-12.15390992
-CA,San Bernardino County,789.418427
-CA,San Diego County,1292.283473
-CA,San Francisco County,380.3349554
-CA,San Joaquin County,502.8532139
-CA,San Luis Obispo County,54.76822892
-CA,San Mateo County,461.2463714
-CA,Santa Barbara County,217.3557197
-CA,Santa Clara County,1177.148743
-CA,Santa Cruz County,113.6407092
-CA,Shasta County,57.38769421
-CA,Sierra County,8.84925855
-CA,Siskiyou County,43.62980213
-CA,Solano County,218.2996811
-CA,Sonoma County,196.2349986
-CA,Stanislaus County,326.0408839
-CA,Sutter County,67.48349051
-CA,Tehama County,35.84096977
-CA,Trinity County,12.1637572
-CA,Tulare County,226.3857607
-CA,Tuolumne County,37.44593215
-CA,Ventura County,484.6704696
-CA,Yolo County,133.2156462
-CA,Yuba County,51.09998391
-CA,Yuma County,-0.05658513
+county,l_ren
+ County,0.0
+Alameda County,1101.8627015414543
+Alpine County,17.7481651
+Amador County,30.939589319595218
+Butte County,132.940672067
+Calaveras County,9.30789663
+Clark County,0.0
+Colusa County,27.41598536
+Contra Costa County,812.4962677332968
+El Dorado County,54.09202898686988
+Esmeralda County,4.07449297
+Fresno County,502.75328398039704
+Glenn County,35.77722624035359
+Humboldt County,60.802719425241655
+Imperial County,65.83269920645799
+Inyo County,83.69176835594257
+Josephine County,0.0
+Kern County,595.5167634949245
+Kings County,116.520587513
+Klamath County,0.0
+La Paz County,0.0
+Lake County,42.492071918508245
+Lassen County,42.73425627789562
+Los Angeles County,5501.093554992235
+Madera County,74.77929003
+Maricopa County,0.0
+Marin County,176.47780892
+Mariposa County,8.49330842
+Mendocino County,51.90027214079585
+Merced County,130.2618717043296
+Modoc County,15.528899778000001
+Mono County,3.4882558048646732
+Monterey County,207.20194905648444
+Municipio de Mexicali County,5.27478621
+Municipio de Tijuana County,17.9363761
+Napa County,94.44927687188623
+Nevada County,22.493323099
+Orange County,1597.5003669039763
+Placer County,220.886288176
+Plumas County,23.810312304
+Riverside County,845.8036539943911
+Sacramento County,638.9061809395126
+San Benito County,3.72932168
+San Bernardino County,1037.6186610029802
+San Diego County,1780.410512944069
+San Francisco County,403.88179365
+San Joaquin County,623.910434462751
+San Luis Obispo County,69.64241335515747
+San Mateo County,513.684650289
+Santa Barbara County,251.85638807203216
+Santa Clara County,1380.2629077940348
+Santa Cruz County,158.69464904
+Shasta County,70.13748653196383
+Sierra County,9.39712317
+Siskiyou County,50.502089919547394
+Solano County,293.51189912000643
+Sonoma County,252.03201911142796
+Stanislaus County,382.36197477785475
+Sutter County,71.66144691
+Tehama County,39.21107597447769
+Trinity County,15.300167691063287
+Tulare County,255.56614773315982
+Tuolumne County,39.764239458999995
+Ventura County,531.8417769552017
+Yolo County,142.438859023
+Yuba County,54.26362446
+Yuma County,3.0637169
