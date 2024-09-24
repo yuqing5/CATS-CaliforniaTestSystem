@@ -1,68 +1,69 @@
 county,0
- County,
-Alameda County,0.01476618238744261
+Alameda County,0.014675439628744463
 Alpine County,0.0
 Amador County,0.0
 Butte County,0.0
 Calaveras County,0.0
 Clark County,
 Colusa County,0.0
-Contra Costa County,0.04048246937787778
-El Dorado County,0.1389774181592848
-Esmeralda County,0.0
-Fresno County,0.031391853881174235
-Glenn County,0.01028052062595546
-Humboldt County,0.024007586626840126
-Imperial County,0.06434195920452267
-Inyo County,0.006421129831975356
+Contra Costa County,0.03907879226174003
+El Dorado County,0.08611032813937869
+Esmeralda County,0.005064727523765057
+Fresno County,0.04046097326847523
+Glenn County,0.030468025301269824
+Humboldt County,0.041993491947529396
+Imperial County,0.06534152814359674
+Inyo County,0.0035282797907945514
+Jackson County,0.0
 Josephine County,
-Kern County,0.11326087647622092
+Kern County,0.11604811017674159
 Kings County,0.0
 Klamath County,
-La Paz County,0.1579203
-Lake County,0.02515173320276676
-Lassen County,0.002261846285851719
-Los Angeles County,0.016093260216447206
+La Paz County,1.4379952525065416
+Lake County,0.025422833670366504
+Lassen County,0.001590146480397464
+Los Angeles,0.0
+Los Angeles County,0.018894935851969084
 Madera County,0.0
 Maricopa County,
 Marin County,0.0
 Mariposa County,0.0
-Mendocino County,0.027840432144981664
-Merced County,0.0796274197116078
+Mendocino County,0.025760159410918058
+Merced County,0.06373205846926693
 Modoc County,0.0
-Mono County,0.042979930140853106
-Monterey County,0.07883007347785535
-Municipio de Mexicali County,0.021961946809637
-Municipio de Tijuana County,0.0
-Napa County,0.05366035692567596
+Mono County,0.0033103832626581974
+Monterey County,0.09131770167270846
+Municipio de Mexicali,0.0
+Municipio de Tijuana,0.0
+Napa County,0.03823150509956099
 Nevada County,0.0
-Orange County,0.003283620984907047
+Orange County,0.002609843739575289
 Placer County,0.0
 Plumas County,0.0
-Riverside County,0.04902511905864674
-Sacramento County,0.08871687057043139
-San Benito County,0.9167569643142307
-San Bernardino County,0.05842338296391176
-San Diego County,0.02285645342929639
+Riverside County,0.04599330179604334
+Sacramento County,0.08639555929860931
+San Benito County,1.2587914225892365
+San Bernardino County,0.04067112676244616
+San Diego County,0.024706384781900115
 San Francisco County,0.0
-San Joaquin County,0.03961448394483462
+San Joaquin County,0.049550411648584786
 San Luis Obispo County,0.0
 San Mateo County,0.0
 Santa Barbara County,0.0
-Santa Clara County,0.01773991751373289
+Santa Clara County,0.040208189497841086
 Santa Cruz County,0.0
-Shasta County,0.04460510480916447
+Shasta County,0.026707475781788313
 Sierra County,0.0
 Siskiyou County,0.0
-Solano County,0.03151569059882752
-Sonoma County,0.026680449212324264
-Stanislaus County,0.0560901646020511
+Solano County,0.01889537092335647
+Sonoma County,0.019643466426725095
+Stanislaus County,0.04800490806418445
 Sutter County,0.0
-Tehama County,0.02454509777705927
-Trinity County,0.06278544250406472
-Tulare County,0.03982193869502726
+Tehama County,0.02813809049792528
+Trinity County,0.0694376212483795
+Tulare County,0.03248169645194436
 Tuolumne County,0.0
-Ventura County,0.008418803076745036
+Ventura County,0.00675679736798037
 Yolo County,0.0
 Yuba County,0.0
-Yuma County,0.056545283590824086
+Yuma County,0.0

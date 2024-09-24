@@ -1,68 +1,69 @@
-county,0
- County,
-Alameda County,0.024320069684660148
-Alpine County,0.0
-Amador County,0.0038025064739353573
-Butte County,0.0
-Calaveras County,0.0
-Clark County,
-Colusa County,0.0
-Contra Costa County,0.04137304138481545
-El Dorado County,0.1736899682100496
-Esmeralda County,0.015037793702335945
-Fresno County,0.041455585928047094
-Glenn County,0.06862963627731043
-Humboldt County,0.013243711388737053
-Imperial County,0.057480630914574976
-Inyo County,0.010479505953143498
-Josephine County,
-Kern County,0.0659193092339401
-Kings County,0.007477149277084271
-Klamath County,
-La Paz County,1.1498629214246745
-Lake County,0.01943880634198556
-Lassen County,0.001645829164755071
-Los Angeles County,0.026220820698702813
-Madera County,0.0003574875238999621
-Maricopa County,
-Marin County,0.0
-Mariposa County,0.0
-Mendocino County,0.024591901733679773
-Merced County,0.06383881928842829
-Modoc County,0.0
-Mono County,0.00947631707218315
-Monterey County,0.10090450871524585
-Municipio de Mexicali County,0.014478974130030206
-Municipio de Tijuana County,0.09900418744693928
-Napa County,0.0
-Nevada County,0.0
-Orange County,0.0030272613705798084
-Placer County,0.0
-Plumas County,0.0
-Riverside County,0.04406451671898467
-Sacramento County,0.06280789590412528
-San Benito County,0.9167569637999606
-San Bernardino County,0.05922137603173718
-San Diego County,0.030155099605946048
-San Francisco County,0.0
-San Joaquin County,0.031751301933861886
-San Luis Obispo County,0.00259174946010951
-San Mateo County,0.0
-Santa Barbara County,0.0030385238186711127
-Santa Clara County,0.021642944998189435
-Santa Cruz County,0.0
-Shasta County,0.032111730474843475
-Sierra County,0.0
-Siskiyou County,0.025100457896886284
-Solano County,0.015796802838684874
-Sonoma County,0.00889177229241999
-Stanislaus County,0.05798498929834767
-Sutter County,0.0
-Tehama County,0.013236261426222763
-Trinity County,0.038865542935232235
-Tulare County,0.043183713277742695
-Tuolumne County,0.0
-Ventura County,0.011613634811127307
-Yolo County,0.0
-Yuba County,0.0
-Yuma County,0.04374754766882504
+country,state,county,carb_inten
+USA,CA,Alameda County,0.019104394
+USA,CA,Alpine County,0
+USA,CA,Amador County,0
+USA,CA,Butte County,0
+USA,CA,Calaveras County,0
+USA,CA,Clark County,0
+USA,CA,Colusa County,0
+USA,CA,Contra Costa County,0.043468704
+USA,CA,El Dorado County,0.083542741
+USA,CA,Esmeralda County,0
+USA,CA,Fresno County,0.053450197
+USA,CA,Glenn County,0.101614524
+USA,CA,Humboldt County,0.023948441
+USA,CA,Imperial County,0.038749602
+USA,CA,Inyo County,0.001085723
+USA,CA,Jackson County,0.09427214
+USA,CA,Josephine County,0
+USA,CA,Kern County,0.058587361
+USA,CA,Kings County,0.026965261
+USA,CA,Klamath County,0
+USA,CA,La Paz County,2.031290269
+USA,CA,Lake County,0.020359642
+USA,CA,Lassen County,0.001157068
+USA,CA,Los Angeles,0.09212818
+USA,CA,Los Angeles County,0.028192556
+USA,CA,Madera County,0.000325007
+USA,CA,Maricopa County,0
+USA,CA,Marin County,0
+USA,CA,Mariposa County,0
+USA,CA,Mendocino County,0.023265904
+USA,CA,Merced County,0.051419608
+USA,CA,Modoc County,0
+USA,CA,Mono County,0.007818571
+USA,CA,Monterey County,0.107154905
+USA,CA,Municipio de Mexicali,0.006522806
+USA,CA,Municipio de Tijuana,0.040159945
+USA,CA,Napa County,0
+USA,CA,Nevada County,0
+USA,CA,Orange County,0.00127256
+USA,CA,Placer County,0
+USA,CA,Plumas County,0
+USA,CA,Riverside County,0.043340573
+USA,CA,Sacramento County,0.070525527
+USA,CA,San Benito County,0.928159904
+USA,CA,San Bernardino County,0.043146225
+USA,CA,San Diego County,0.047523337
+USA,CA,San Francisco County,0
+USA,CA,San Joaquin County,0.041162596
+USA,CA,San Luis Obispo County,0.003018341
+USA,CA,San Mateo County,0
+USA,CA,Santa Barbara County,0.002374592
+USA,CA,Santa Clara County,0.05095991
+USA,CA,Santa Cruz County,0
+USA,CA,Shasta County,0.025057708
+USA,CA,Sierra County,0
+USA,CA,Siskiyou County,0.019787226
+USA,CA,Solano County,0.013020076
+USA,CA,Sonoma County,0.008668411
+USA,CA,Stanislaus County,0.049540878
+USA,CA,Sutter County,0
+USA,CA,Tehama County,0.015552648
+USA,CA,Trinity County,0.039890411
+USA,CA,Tulare County,0.037989282
+USA,CA,Tuolumne County,0
+USA,CA,Ventura County,0.00967223
+USA,CA,Yolo County,0
+USA,CA,Yuba County,0
+USA,CA,Yuma County,0.053017575
