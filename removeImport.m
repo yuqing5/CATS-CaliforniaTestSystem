@@ -1,14 +1,15 @@
-function f = removeBus(indices, idx_line)
+function f = removeImport(indices)
 	m = loadcase('CaliforniaTestSystem.m');
 	indices = cell2mat(indices);
-	idx_line = cell2mat(idx_line);
 	%remove pmax = zero
 	%idx = find(m.gen(:,9)==0);
 	%m.gen(idx,:) = [];
 	%m.gencost(idx, :) = [];
 	%remove solar
-	m.bus(indices,3) = 0;
-	m.branch(idx_line,:) = [];
+	for i = indices
+		m.gencost(i, 6) = 0;
+		m.gencost(i, 4) = 0;
+	end
 	f = savecase('CaliforniaTestSystem.m', m);
 	%a = sum(m.bus(:,3));
 	%f = fprintf('Power demand: %f/n', a);
