@@ -34,13 +34,13 @@ We also provide the load and renewable generation profiles that we used in the c
 ## Usage
 Clone the repository
 ```julia
-   git clone https://github.com/WISPO-POP/CATS-CaliforniaTestSystem.git
+   git clone https://github.com/yuqing5/CATS-CaliforniaTestSystem.git
 ```
 
 Run a DC optimal power flow using [PowerModels.jl](https://github.com/lanl-ansi/PowerModels.jl) by executing the file `run_opf.jl`.
 
 ### Recent Updates
-The CATS was updated on November 11, 2023. All previous versions are available in the 'Archive' directory.
+Use carbon_algo_renewable_yize.ipynb file to run my code. Also, since there are cells in code that modify the CaliforniaTestSystem.m file, make sure to save the original CaliforniaTestSystem.m file and use it when you run the .ipynb the second time.
 <!-- Due to formatting restrictions, the MATPOWER and GIS formats of the CATS model have different indices for components. The CSV files in the `Additional Data Files` folder map this relationship, in addition to providing additional data fields. 
 
 In `branch_data.csv`, "Branch Number" is the MATPOWER index in `CaliforniaTestSystem.m`, while "FID" is the GIS index in `lines.geojson`. WARNING: There is currently an issue with the ID mapping in `branch_data.csv`. This issue should be resolved soon. Thank you for your patience.
